@@ -9,7 +9,7 @@ using namespace std;
 //cntrl K cntrl D
 
 void function(void) {
-	std::cout << "This is to test GIT" << std::endl;
+	std::cout << "Function called." << std::endl;
 }
 
 int* sorted_array(int arr[], int size) {
@@ -87,7 +87,6 @@ int main() {
 	*/
 	srand(time(NULL));
 	function();
-	cout << endl;
 
 	
 
