@@ -121,7 +121,7 @@ int main() {
 		cout << "new Branche called feature" << endl;
 		cout << "add more functionalities to feature branch" << endl;
 
-	        cout << "REMOTE" << endl;
+	    cout << "Local" << endl;
 
 	return 0;
 }
