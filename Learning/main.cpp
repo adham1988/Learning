@@ -113,7 +113,7 @@ int main() {
 	
         cout << "End of the script"<< endl;
 		cout << "this to be deleted" << endl;
-		cout << "new last line" << endl;
+
 
 	return 0;
 }
