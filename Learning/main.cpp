@@ -110,18 +110,7 @@ int main() {
 	}
 
 
-	cout << "hello" << endl;
 	
-        cout << "End of the script"<< endl;
-		cout << "this to be deleted" << endl;
-		cout << "new last line" << endl;
-
-
-
-		cout << "new Branche called feature" << endl;
-		cout << "add more functionalities to feature branch" << endl;
-
-	    cout << "Local" << endl;
 
 	return 0;
 }
