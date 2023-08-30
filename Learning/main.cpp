@@ -119,7 +119,7 @@ int main() {
 
 
 		cout << "new Branche called feature" << endl;
-		cout << "every thing is removed" << endl;
+		cout << "causing conflict" << endl;
 
 	return 0;
 }
