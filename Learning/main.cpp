@@ -119,7 +119,7 @@ int main() {
 
 
 		cout << "new Branche called feature" << endl;
-		cout << "add more functionalities to feature branch" << endl;
+		cout << "every thing is removed" << endl;
 
 	return 0;
 }
