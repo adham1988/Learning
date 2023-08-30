@@ -12,7 +12,8 @@ void function(void) {
 	std::cout << "Function called." << std::endl;
 }
 
-int* sorted_array(int arr[], int size) {
+vector<int> sorted_array(vector<int> arr) {
+	int size = arr.size();
 	int temp;
 	for (int i = 0; i < size;i++) {
 		for (int j = i + 1;j < size;j++) {
@@ -115,12 +116,13 @@ int main() {
 	}
 
 	//int *returned_array =  sorted_array(arr, size(arr));
-	
+	vector<int> sortedArr = sorted_array(arr);
 
 	cout << endl;
-	//for (int i = 0; i < size(arr);i++) {
-	//	cout << returned_array[i] << endl;
-	//}
+
+	for (int i = 0; i < sortedArr.size();i++) {
+		cout << sortedArr[i] << endl;
+	}
 
 
 	
