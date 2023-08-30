@@ -92,22 +92,35 @@ int main() {
 
 	//int arr[6] = { 5,2,6,1,4,3 };
 
+	/*
 	int arr[6];
 
 	for (int i = 0; i < size(arr);i++) {
 		arr[i] = rand() % 100;
 		cout << arr[i] << endl;
 	}
+	*/
+	vector <int> arr;
+	int size_array;
+	cout << "Enter the desired length of the vector" << endl;
+	cin >> size_array;
 
-	
+	for (int i = 0; i < size_array; ++i) {
+		arr.push_back(rand() % 100);
+	}
+	//cout << arr.size() << endl;
+	for (int i = 0; i < arr.size(); ++i) {
+		
+		cout << "Element " << i << " is " << arr[i] << endl;
+	}
 
-	int *returned_array =  sorted_array(arr, size(arr));
+	//int *returned_array =  sorted_array(arr, size(arr));
 	
 
 	cout << endl;
-	for (int i = 0; i < size(arr);i++) {
-		cout << returned_array[i] << endl;
-	}
+	//for (int i = 0; i < size(arr);i++) {
+	//	cout << returned_array[i] << endl;
+	//}
 
 
 	
